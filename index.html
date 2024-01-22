@@ -136,10 +136,132 @@
         </div>
       </nav>
 
-      <!-- Banner-section -->
+      <!-- Banner-section with slider -->
+      <div class="pb-48 md:pb-0 lg: pb-0">
+        <div class="slider_container relative">
+          <div class="carousel w-full h-[500px]">
+            <!-- Slider-Item-1 -->
+            <div
+              id="slide1"
+              class="carousel-item relative w-full block rounded-lg"
+            >
+              <!-- slider-img-section -->
+              <img src="Images/slider-1.png" class="w-full h-full rounded-lg" />
+              <!-- slider-btn-area -->
+              <div
+                class="absolute flex justify-between transform -translate-y-1/2 left-5 right-5 top-1/2"
+              >
+                <a
+                  href="#slide3"
+                  class="btn btn-circle bg-[#2E333E] border-none text-white"
+                  >❮</a
+                >
+                <a
+                  href="#slide2"
+                  class="btn btn-circle bg-[#2E333E] border-none text-white"
+                  >❯</a
+                >
+              </div>
+
+              <!-- slider-btn -->
+              <div
+                class="flex justify-center w-full py-2 gap-2 absolute bottom-20"
+              >
+                <a href="#slide1" class="btn btn-xs bg-[#000] text-white"
+                  ><i class="fa-solid fa-minus"></i
+                ></a>
+                <a
+                  href="#slide2"
+                  class="btn btn-xs opacity-50 bg-[#000] text-white"
+                  ><i class="fa-solid fa-minus"></i
+                ></a>
+                <a
+                  href="#slide3"
+                  class="btn btn-xs opacity-50 bg-[#000] text-white"
+                  ><i class="fa-solid fa-minus"></i
+                ></a>
+              </div>
+            </div>
+            <!-- Slider-Item-2 -->
+            <div id="slide2" class="carousel-item relative w-full">
+              <!-- slider-img-section -->
+              <img src="Images/slider-2.jpg" class="w-full h-full" />
+              <!-- slider-btn-area -->
+              <div
+                class="absolute flex justify-between transform -translate-y-1/2 left-5 right-5 top-1/2"
+              >
+                <a href="#slide1" class="btn btn-circle">❮</a>
+                <a href="#slide3" class="btn btn-circle">❯</a>
+              </div>
+              <!-- slider-btn -->
+              <div
+                class="flex justify-center w-full py-2 gap-2 absolute bottom-20"
+              >
+                <a
+                  href="#slide1"
+                  class="btn btn-xs opacity-50 bg-[#000] text-white"
+                  ><i class="fa-solid fa-minus"></i
+                ></a>
+                <a href="#slide2" class="btn btn-xs bg-[#000] text-white"
+                  ><i class="fa-solid fa-minus"></i
+                ></a>
+                <a
+                  href="#slide3"
+                  class="btn btn-xs opacity-50 bg-[#000] text-white"
+                  ><i class="fa-solid fa-minus"></i
+                ></a>
+              </div>
+            </div>
+            <!-- Slider-Item-3 -->
+            <div id="slide3" class="carousel-item relative w-full">
+              <!-- slider-img-section -->
+              <img src="Images/slider-3.jpg" class="w-full h-full" />
+              <!-- slider-btn-area -->
+              <div
+                class="absolute flex justify-between transform -translate-y-1/2 left-5 right-5 top-1/2"
+              >
+                <a href="#slide2" class="btn btn-circle">❮</a>
+                <a href="#slide1" class="btn btn-circle">❯</a>
+              </div>
+              <!-- slider-btn -->
+              <div
+                class="flex justify-center w-full py-2 gap-2 absolute bottom-20"
+              >
+                <a
+                  href="#slide1"
+                  class="btn btn-xs opacity-50 bg-[#000] text-white"
+                  ><i class="fa-solid fa-minus"></i
+                ></a>
+                <a
+                  href="#slide2"
+                  class="btn btn-xs opacity-50 bg-[#000] text-white"
+                  ><i class="fa-solid fa-minus"></i
+                ></a>
+                <a href="#slide3" class="btn btn-xs bg-[#000] text-white"
+                  ><i class="fa-solid fa-minus"></i
+                ></a>
+              </div>
+            </div>
+          </div>
+
+          <div
+            class="badge_container bg-hColor space-y-3 w-full -bottom-48 right-0 p-4 rounded-lg md:w-[300px] md:right-4 md:bottom-4 md:p-4 md:rounded-xl lg:w-[500px] lg:bottom-10 lg:right-10 lg:p-8 lg:rounded-2xl absolute"
+          >
+            <h1
+              class="text-xl md:text-xl lg:text-2xl text-white font-extrabold"
+            >
+              Meet all the heroes from the field
+            </h1>
+            <p class="text-base font-medium text-[#FBFBFB]">
+              Dit amet consectetur. Condimentum dignissim adipiscing aliquam
+              turpis placerat dolor. Purus urna in sit nullam proin.
+            </p>
+          </div>
+        </div>
+      </div>
     </header>
     <!-- Main-Section -->
-    <main class="main container mx-auto"></main>
+    <main class="main container mx-auto">Main</main>
     <!-- Footer-Section -->
     <footer class="footer">Footer</footer>
   </body>
