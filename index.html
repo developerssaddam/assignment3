@@ -863,8 +863,8 @@
           </p>
         </div>
         <!-- contact-area-section -->
-        <div class="contact_area p-4">
-          <div class="contact_left">
+        <div class="contact_area p-4 flex flex-col gap-5 lg:flex-row">
+          <div class="contact_left flex-1">
             <!-- left-item-1 -->
             <div class="p-8 bg-[#F8FDF0] rounded-xl mb-5">
               <img class="mb-4" src="Images/Group1.png" alt="" />
@@ -892,10 +892,10 @@
               </h1>
             </div>
           </div>
-          <div class="contact_right">
+          <div class="contact_right flex-1">
             <form action="">
               <div class="input_area">
-                <div class="input_items">
+                <div class="input_items grid grid-cols-1 gap-4 lg:grid-cols-2">
                   <!-- input-item-1 -->
                   <div class="mb-4">
                     <label class="label">
@@ -960,7 +960,7 @@
                   </label>
                   <textarea
                     placeholder="Write your message"
-                    class="textarea bg-[#F8F8F8] textarea-lg w-full h-[370px]"
+                    class="textarea bg-[#F8F8F8] textarea-lg w-full h-[150px] lg:h-[300px]"
                   ></textarea>
                 </div>
                 <button
@@ -972,6 +972,7 @@
             </form>
           </div>
         </div>
+        <!-- social_area -->
         <div class="p-4">
           <div
             class="social_area text-center p-5 bg-[#F8F8F8] rounded-xl text-base-content"
@@ -981,17 +982,23 @@
             </h2>
             <div class="icons_area">
               <ul class="flex gap-3 justify-center">
-                <li>
-                  <a href="#"><i class="fa-brands fa-facebook-f"></i></a>
+                <li class="w-6 h-6 bg-white rounded-full p-[1px]">
+                  <a class="block" href="#"
+                    ><i class="fa-brands fa-facebook-f"></i
+                  ></a>
                 </li>
-                <li>
+                <li class="w-6 h-6 bg-white rounded-full p-[1px]">
                   <a href="#"><i class="fa-brands fa-youtube"></i></a>
                 </li>
-                <li>
-                  <a href="#"><i class="fa-brands fa-linkedin-in"></i></a>
+                <li class="w-6 h-6 bg-white rounded-full p-[1px]">
+                  <a class="block" href="#"
+                    ><i class="fa-brands fa-linkedin-in"></i
+                  ></a>
                 </li>
-                <li>
-                  <a href="#"><i class="fa-brands fa-github"></i></a>
+                <li class="w-6 h-6 bg-white rounded-full p-[1px]">
+                  <a class="block" href="#"
+                    ><i class="fa-brands fa-github"></i
+                  ></a>
                 </li>
               </ul>
             </div>
